@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(236, 213, 255);
+    font-size: 1em;
+    color: rgb(248, 245, 251);
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 27%;
+    /* display: flex; */
+}
+
+.form-wrapper {
+    background: rgb(190, 169, 207);
+    margin-right: 33%;
+    display: flex;
+    /* justify-content: right; */
+    padding-bottom: 3em;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+img {
+    display: block;
+}
+
+input, textarea, button {
+    border-radius: 4px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo {
+    margin-bottom: 1em;
+    display: block;
+}
+fieldset {
+    border: 0;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="password"], .campo input[type="date"], .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #20FFCA;
+    
+}
+
+button {
+    padding: 4px 6px;
+    background: #19A886;
+    font-size: 1em;
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+button:hover {
+    background: #bde0d8;
+}
+
+
+/*------- Formulário para publicações/portifólio e projetos --------*/
+.formpub-wrapper {
+    background: rgb(190, 169, 207);
+    margin-right: 33%;
+    /* padding-left: 120px; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
+    padding-top: 50px;
+    border-radius: 10px;
+    display: flex;
+}
+
+#pub-button {
+    padding: 4px 6px;
+    background: #19A886;
+    font-size: 1em;
+    color: #ffffff;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#pub-button:hover {
+    background: #bde0d8;
+}

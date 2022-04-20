@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="view-port" content="width=device-width, initial-scale=1.0">
+        <title>Publique</title>
+        <link rel="stylesheet" href="css/fomulario.css">
+    </head>
+
+    
+    <body>
+        <a href="#" onclick="voltar()"> Voltar </a>
+        <div class="formpub-wrapper">
+            <form onSubmit={handleFormSubmit}>
+             
+
+                <div class="campo">
+                    <label for="insertTitle">Titulo da Publicação:</label>
+                    <input type="text" name="titulo" id="insertTitle">
+                </div>
+
+                <div class="campo">
+                    <label for="link-input">Link da Publicação:</label>
+                    <input type="text" name="link" id="link-input">
+                </div>
+
+                
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="nome-autor">Nome do autor:</label>
+                        <br>
+                        <input type="text" name="autor" id="nome-autor">
+                    </div>
+                    <div class="campo">
+                        <label for="ano-pub">Ano de Publicação:</label>
+                        <br>
+                        <input type="text" name="senha" id="ano-pub">
+                    </div>
+                </fieldset>
+                
+                <div class="campo">
+                    <br>
+                    <label for="description">Adicione o resumo:</label>
+                    <br>
+                    <textarea name="descriçao" id="description" cols="50" rows="10"></textarea>
+                </div>
+                
+                <button class="botao" id="pub-button" type="submit">Confirmar</button>
+            </form>
+        </div>
+    </body>
+    
+    <script src="js/formularios.js"></script>
+    <script src="js/script.js"></script>
+    
+    </html>
+  

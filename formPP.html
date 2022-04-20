@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="view-port" content="width=device-width, initial-scale=1.0">
+        <title>Publique</title>
+        <link rel="stylesheet" href="css/fomulario.css">
+    </head>
+
+    
+    <body>
+        <a href="#" onclick="voltar()"> Voltar </a>
+        <div class="formpub-wrapper">
+            <form onSubmit={handleFormSubmit}>
+                
+
+                <div class="campo">
+                    <label for="titlePort">Titulo do Projeto:</label>
+                    <input type="text" name="titulo" id="titlePort">
+                </div>
+                
+                <div class="campo">
+                    <label for="url-input">URL da imagem:</label>
+                    <input type="text" name="link" id="url-input">
+                </div>
+
+                
+                
+                <div class="campo">
+                    <br>
+                    <label for="descriPort">Adicione o resumo:</label>
+                    <br>
+                    <textarea name="descriçao" id="descriPort" cols="50" rows="10"></textarea>
+                </div>
+                
+                <button class="botao" id="port-button" type="submit" onclick="enviaPort()">Confirmar</button>
+            </form>
+        </div>
+    </body>
+
+    <script src="js/formularios.js"></script>
+    <script src="js/script.js"></script>
+
+</html>
